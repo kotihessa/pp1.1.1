@@ -14,10 +14,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         // реализуйте алгоритм здесь
-
-
         UserServiceImpl userService = new UserServiceImpl();
         userService.createUsersTable();
 
@@ -32,6 +31,5 @@ public class Main {
         userService.cleanUsersTable();
 
         userService.dropUsersTable();
-
     }
 }
